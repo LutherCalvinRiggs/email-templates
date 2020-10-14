@@ -14,19 +14,161 @@ html {
     line-height: 1.5;
 }
 
-@font-face {        /* Adds a Web Font to the CSS */
-    font-family: 'font name';
-    src: url(my-font.woff); /* relative path - file located in a folder on the server */
-    src: url(http://example.com/font/my-font.woff); /* absolute path */
-}
-
 body {
+    max-width: 1000px;
+    background-color: rgb(239, 230, 218);
+}
+
+#email-content-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    padding: 60px 0;
+}
+
+img {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#banner-wrapper {
+    border: 1px solid black;
+    margin: 50px auto;
+}
+
+#banner-image {
 
 }
 
+#main-image-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    margin: 0 auto;
+    /* justify-content: center; */
+}
 
+#main-image {
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    box-shadow: 5px 5px 10px grey;
+}
 
+#main-image-caption {
+    color: black;
+    font: italic sans-serif;
+}
 
+#main-article {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    /* font-family: ; */
+}
+
+.article-link {
+    color: red;
+}
+
+.secondary-article-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondary-article-image {
+    width: 350px;
+    height: 450px;
+}
+
+.secondary-article-preview {
+    width: 300px;
+    padding: 30px;
+}
+
+#article-one-text {
+    text-align: left;
+}
+
+#article-two-text {
+    text-align: right;
+}
+
+#suggestions {
+    width: 100%;
+}
+
+#suggestions-title-image {
+    width: 100px;
+    margin: 0 auto;
+}
+
+#suggestion-image-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.suggestion-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 20px;
+}
+
+#instagram-wrapper {
+    height: 100px;
+    border: 2px solid black;
+    margin: 40px auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.social-link-image {
+    margin: 30px;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+#copyright {
+    color: grey;
+    margin: 10px auto;
+}
+
+#unsubscribe {
+    color: grey;
+    margin: 10px auto;
+}
+
+#unsubscribe a {
+    color: grey;
+}
 
 
 
